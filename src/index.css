@@ -1,0 +1,31 @@
+:root {
+  font-family: "Roboto-Variable", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary-color: #333333;
+  --secondary-color: #bdbdbd;
+  --tertiary-color: #f2f2f2;
+  --contact-font-color: #8d8d8d;
+  --contact-field-color: #f3f3f3;
+  --footer-color: #2c2c2c;
+  --darkmode-color: #343434;
+}
+
+@font-face {
+  font-family: "Roboto-Variable";
+  src: url("../public/fonts/Roboto-Variable.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Italic-Variable";
+  src: url("../public/fonts/Roboto-Italic-Variable.ttf");
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}

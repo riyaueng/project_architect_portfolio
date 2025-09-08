@@ -1,0 +1,27 @@
+.wrapper_nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.wrapper_nav nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.wrapper_nav nav a {
+  color: var(--primary-color);
+  padding: 0.1rem 1rem;
+}
+
+.wrapper_nav nav a:hover,
+.wrapper_nav nav a:active {
+  border-bottom: 1px solid var(--primary-color);
+  border-top: 1px solid var(--primary-color);
+}
