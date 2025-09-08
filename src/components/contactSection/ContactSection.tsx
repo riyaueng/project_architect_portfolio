@@ -17,6 +17,7 @@ export default function ContactSection() {
           </textarea>
           <LinkBtn />
         </form>
+        <img src="../../../public/img/contact_formular.jpg" alt="Mann mit Smartphone und Armbanduhr" />
       </section>
     </>
   )

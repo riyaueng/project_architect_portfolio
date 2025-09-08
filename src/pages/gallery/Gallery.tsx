@@ -8,7 +8,7 @@ export default function Gallery() {
       <main>
         <IntroSection />
         <section className="section_gallery">
-          <img src="" alt="Platzhalter" />
+          <div className="gallery_platzhalter"></div>
           <img src="../../../public/img/gallery_02.jpg" alt="Küste mit Leuchtturm" />
           <img src="../../../public/img/gallery_03.jpg" alt="Glasdach" />
           <img src="../../../public/img/gallery_04.jpg" alt="Leuchtturmspitze" />

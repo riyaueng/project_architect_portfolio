@@ -1,0 +1,24 @@
+.section_projects {
+  margin: 0 auto 6rem;
+  width: 73rem;
+}
+
+.section_projects img {
+  width: 20rem;
+}
+
+/* .projects_examples {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 2rem;
+} */
+
+/* .image01 {
+  grid-column: 1 / 3;
+}
+
+.image02 {
+  grid-column: 3 / 4;
+  grid
+} */

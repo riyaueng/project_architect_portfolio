@@ -1,0 +1,38 @@
+.section_hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.div_hero_image {
+  width: 48rem;
+  height: 52rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.div_hero_image img {
+  width: 48rem;
+}
+
+.section_hero h1 {
+  font-weight: 300;
+  color: var(--secondary-color);
+  line-height: 4rem;
+}
+
+.section_hero h1 span {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.div_img_link {
+  position: relative;
+}
+
+.div_img_link .div_btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}

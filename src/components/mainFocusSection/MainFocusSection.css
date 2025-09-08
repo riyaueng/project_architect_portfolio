@@ -1,0 +1,38 @@
+.section_mainfocus {
+  width: 73rem;
+  margin: 0 auto 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin-bottom: 6rem;
+}
+
+.section_mainfocus h2 {
+  margin-bottom: 2rem;
+}
+
+.wrapper_focus_text {
+  margin: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+}
+
+.div_focus {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.div_focus p::first-letter {
+  initial-letter: 4 4;
+  font-weight: 700;
+  color: var(--tertiary-color);
+  margin-right: 1.5rem;
+}
+
+.div_focus p:last-of-type {
+  width: 24rem;
+}

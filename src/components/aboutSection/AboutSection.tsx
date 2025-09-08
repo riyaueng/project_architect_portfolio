@@ -11,7 +11,9 @@ export default function AboutSection() {
             <img src="../../../public/img/about_01.jpg" alt="Fensterfront" />
             <img src="../../../public/img/about_03.jpg" alt="Gebäude in Froschperspektive" />
           </div>
-          <img src="../../../public/img/about_02.jpg" alt="Gebäudespitze" />
+          <div className="wrapper_image_alone">
+            <img src="../../../public/img/about_02.jpg" alt="Gebäudespitze" />
+          </div>
         </div>
 
         <div className="wrapper_about_text">

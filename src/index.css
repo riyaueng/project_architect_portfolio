@@ -1,6 +1,5 @@
 :root {
   font-family: "Roboto-Variable", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
   font-weight: 400;
 
   --primary-color: #333333;
@@ -20,6 +19,21 @@
 @font-face {
   font-family: "Roboto-Italic-Variable";
   src: url("../public/fonts/Roboto-Italic-Variable.ttf");
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.5rem;
 }
 
 a {

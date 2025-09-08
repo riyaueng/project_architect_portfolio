@@ -1,0 +1,16 @@
+.div_btn {
+  width: 14rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 1.6rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.div_btn a {
+  color: var(--primary-color);
+}

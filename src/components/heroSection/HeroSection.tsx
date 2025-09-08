@@ -6,15 +6,19 @@ export default function HeroSection() {
   return (
     <>
       <section className="section_hero">
-        <div className="div_hero_healdine">
+        <div className="div_hero_headline">
           <h1>
             PROJECT <br /> <span>Lorum</span>
           </h1>
         </div>
 
-        <div>
-          <img src="../../../public/img/header_hero.jpg" alt="Gebäude mit mehreren Balkons" />
-          <LinkBtn />
+        <div className="div_img_link">
+          <div className="div_hero_image">
+            <img src="../../../public/img/header_hero.jpg" alt="Gebäude mit mehreren Balkons" />
+          </div>
+          <div className="div_link_btn">
+            <LinkBtn />
+          </div>
         </div>
       </section>
     </>

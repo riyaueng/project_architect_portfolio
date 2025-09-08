@@ -1,0 +1,22 @@
+.section_loader {
+  text-align: center;
+  padding: 5rem;
+}
+
+.section_loader h1 {
+  margin-top: 2rem;
+}
+
+.section_loader img {
+  width: 16.3rem;
+  animation: loader-spin infinite 2.5s linear;
+}
+
+@keyframes loader-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
