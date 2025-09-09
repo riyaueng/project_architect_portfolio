@@ -27,10 +27,10 @@ export default function Layout() {
           <>
             <Header darkMode={darkMode} setDarkmode={setDarkMode} />
             <Outlet />
+            <Footer />
           </>
         )}
       </div>
-      <Footer />
     </>
   )
 }
