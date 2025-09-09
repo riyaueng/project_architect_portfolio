@@ -1,6 +1,7 @@
 .section_contact {
-  margin: 0 auto 6rem;
+  margin: 0 auto;
   width: 73rem;
+  padding-bottom: 6rem;
 }
 .section_contact h2 {
   margin-bottom: 2rem;

@@ -1,6 +1,11 @@
 import React from "react"
 import "./Contacts.css"
+import IntroSection from "../../components/introSection/IntroSection"
 
 export default function Contacts() {
-  return <div>Contacts</div>
+  return (
+    <>
+      <IntroSection text1="Get in" text2="Touch" />
+    </>
+  )
 }

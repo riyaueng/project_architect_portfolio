@@ -16,7 +16,6 @@
 }
 
 .wrapper_nav nav a {
-  color: var(--primary-color);
   padding: 0.1rem 1rem;
 }
 
@@ -24,4 +23,9 @@
 .wrapper_nav nav a:active {
   border-bottom: 1px solid var(--primary-color);
   border-top: 1px solid var(--primary-color);
+}
+
+.btn_mode {
+  border: none;
+  background-color: transparent;
 }

@@ -1,12 +1,17 @@
 import React from "react"
 import "./IntroSection.css"
 
-export default function IntroSection() {
+interface IntroProps {
+  text1: string
+  text2: string
+}
+
+export default function IntroSection({ text1, text2 }: IntroProps) {
   return (
     <>
       <section className="section_intro">
         <h1>
-          Photo <br /> <span>Gallery</span>
+          {text1} <br /> <span>{text2}</span>
         </h1>
       </section>
     </>

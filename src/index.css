@@ -37,9 +37,26 @@ p {
 }
 
 a {
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 li {
   list-style-type: none;
+}
+
+.light {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.dark,
+.dark a,
+.dark .btn_mode_svg,
+.dark .div_btn_light,
+.dark .div_btn_light a,
+.dark .btn_svg_dark path {
+  background-color: var(--darkmode-color);
+  color: white;
+  fill: white;
 }

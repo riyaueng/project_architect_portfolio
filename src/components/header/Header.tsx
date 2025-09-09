@@ -2,14 +2,26 @@ import React from "react"
 import "./Header.css"
 import Navigation from "../navigation/Navigation"
 
-export default function Header() {
+interface HeaderProps {
+  darkMode: boolean
+  setDarkmode: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+const logo_black = "../../../public/img/logo_architect.svg"
+
+const logo_white = "../../../public/img/logo_architect_image_white.svg"
+
+export default function Header(props: HeaderProps) {
   return (
     <>
       <header>
         <div className="archtitects_logo">
-          <img src="../../../public/img/logo_architect.svg" alt="Architects Logo" />
+          <img
+            src={props.darkMode ? logo_white : logo_black}
+            alt={props.darkMode ? "White Architects Logo" : "Black Architects Logo"}
+          />
         </div>
-        <Navigation />
+        <Navigation darkMode={props.darkMode} setDarkMode={props.setDarkmode} />
       </header>
     </>
   )

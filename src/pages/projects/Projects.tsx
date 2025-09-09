@@ -1,6 +1,11 @@
 import React from "react"
 import "./Projects.css"
+import IntroSection from "../../components/introSection/IntroSection"
 
 export default function Projects() {
-  return <div>Projects</div>
+  return (
+    <>
+      <IntroSection text1="Our" text2="Projects" />
+    </>
+  )
 }
