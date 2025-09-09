@@ -1,4 +1,4 @@
-.div_btn {
+.div_btn_light {
   width: 14rem;
   font-size: 0.75rem;
   letter-spacing: 0.1rem;
@@ -11,6 +11,31 @@
   gap: 1rem;
 }
 
-.div_btn a {
+.div_btn_light a {
   color: var(--primary-color);
+}
+
+.btn_svg_dark path {
+  fill: var(--primary-color);
+}
+
+.div_btn_dark {
+  width: 14rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  padding: 1.6rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.div_btn_dark a {
+  color: white;
+}
+
+.btn_svg_light path {
+  fill: white;
 }

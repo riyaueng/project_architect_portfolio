@@ -1,0 +1,17 @@
+.section_intro {
+  width: 73rem;
+  border-bottom: 1px solid var(--tertiary-color);
+  margin: 4rem auto 2rem;
+}
+
+.section_intro h1 {
+  font-weight: 300;
+  color: var(--secondary-color);
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.section_intro h1 span {
+  font-weight: 600;
+  color: var(--primary-color);
+}

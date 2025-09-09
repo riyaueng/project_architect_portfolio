@@ -24,7 +24,7 @@ export default function AboutSection() {
             scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
             electronic typesetting, remaining essentially unchanged.
           </p>
-          <LinkBtn />
+          <LinkBtn link="/about" text="Read more" style="div_btn_dark" svg="btn_svg_light" />
         </div>
       </section>
     </>

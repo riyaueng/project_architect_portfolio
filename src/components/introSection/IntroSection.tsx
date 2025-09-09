@@ -6,7 +6,7 @@ export default function IntroSection() {
     <>
       <section className="section_intro">
         <h1>
-          Photo <br /> <span>Gallery</span>{" "}
+          Photo <br /> <span>Gallery</span>
         </h1>
       </section>
     </>

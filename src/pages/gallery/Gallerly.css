@@ -1,0 +1,21 @@
+.section_gallery {
+  width: 73rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 2rem;
+  margin-bottom: 8rem;
+}
+
+.section_gallery img {
+  width: 13rem;
+  height: 16rem;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center;
+}
+
+.section_gallery div {
+  background-color: #c4c4c4;
+}

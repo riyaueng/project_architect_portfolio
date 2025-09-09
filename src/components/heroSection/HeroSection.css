@@ -23,14 +23,15 @@
 }
 
 .section_hero h1 span {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--primary-color);
 }
+
 .div_img_link {
   position: relative;
 }
 
-.div_img_link .div_btn {
+.div_img_link .div_btn_light {
   position: absolute;
   bottom: 0;
   left: 0;
