@@ -1,4 +1,3 @@
-import React from "react"
 import "./Certification.css"
 import IntroSection from "../../components/introSection/IntroSection"
 

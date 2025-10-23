@@ -1,4 +1,3 @@
-import React from "react"
 import "./MainFocusSection.css"
 
 export default function MainFocusSection() {

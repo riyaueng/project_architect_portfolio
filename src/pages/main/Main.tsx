@@ -1,4 +1,3 @@
-import React from "react"
 import "./Main.css"
 import HeroSection from "../../components/heroSection/HeroSection"
 import AboutSection from "../../components/aboutSection/AboutSection"

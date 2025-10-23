@@ -1,4 +1,3 @@
-import React from "react"
 import "./ProjectsSection.css"
 import LinkBtn from "../linkBtn/LinkBtn"
 
