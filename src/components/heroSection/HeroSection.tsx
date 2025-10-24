@@ -13,7 +13,7 @@ export default function HeroSection() {
 
         <div className="div_img_link">
           <div className="div_hero_image">
-            <img src="../../../public/img/header_hero.jpg" alt="Gebäude mit mehreren Balkons" />
+            <img src="/img/header_hero.jpg" alt="Gebäude mit mehreren Balkons" />
           </div>
           <div className="div_link_btn">
             <LinkBtn link="/projects" text="View projects" style="div_btn_light" />

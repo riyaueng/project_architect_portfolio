@@ -7,7 +7,7 @@ export default function Footer() {
       <footer>
         <section className="footer_info">
           <div className="footer_logo">
-            <img src="../../../public/img/logo_architect_white.svg" alt="Weißes Architects Logo" />
+            <img src="/img/logo_architect_white.svg" alt="Weißes Architects Logo" />
           </div>
           <div className="wrapper_footer_nav">
             <h4>Information</h4>
@@ -24,15 +24,15 @@ export default function Footer() {
             <h4>Contacts</h4>
             <ul>
               <li>
-                <img src="../../../public/img/icon_pin.svg" alt="Icon Navigations Pin" />
+                <img src="/img/icon_pin.svg" alt="Icon Navigations Pin" />
                 <p>1234 Sample Street Austin Texas 78704</p>
               </li>
               <li>
-                <img src="../../../public/img/icon_phone.svg" alt="Icon Telefonhörer" />
+                <img src="/img/icon_phone.svg" alt="Icon Telefonhörer" />
                 <p>512.333.2222</p>
               </li>
               <li>
-                <img src="../../../public/img/icon_mail.svg" alt="Icon Email" />
+                <img src="/img/icon_mail.svg" alt="Icon Email" />
                 <p>sampleemail@gmail.com</p>
               </li>
             </ul>
@@ -41,10 +41,10 @@ export default function Footer() {
           <div className="wrapper_footer_socials">
             <h4>Social Media</h4>
             <div className="wrapper_socials">
-              <img src="../../../public/img/icon_facebook.svg" alt="Facebook Logo" />
-              <img src="../../../public/img/icon_twitter.svg" alt="Twitter Logo" />
-              <img src="../../../public/img/icon_linkedin.svg" alt="LinkedIn Logo" />
-              <img src="../../../public/img/icon_pininterest.svg" alt="Pinterest Logo" />
+              <img src="/img/icon_facebook.svg" alt="Facebook Logo" />
+              <img src="/img/icon_twitter.svg" alt="Twitter Logo" />
+              <img src="/img/icon_linkedin.svg" alt="LinkedIn Logo" />
+              <img src="/img/icon_pininterest.svg" alt="Pinterest Logo" />
             </div>
           </div>
         </section>

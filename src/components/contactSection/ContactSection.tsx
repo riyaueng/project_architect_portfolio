@@ -21,7 +21,7 @@ export default function ContactSection() {
             </textarea>
           </form>
           <div className="contact_img">
-            <img src="../../../public/img/contact_formular.jpg" alt="Mann mit Smartphone und Armbanduhr" />
+            <img src="/img/contact_formular.jpg" alt="Mann mit Smartphone und Armbanduhr" />
           </div>
         </div>
         <LinkBtn link="/" text="Send Mail" style="div_btn_dark" svg="btn_svg_light" />
