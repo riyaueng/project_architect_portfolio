@@ -1,6 +1,14 @@
 .section_loader {
   text-align: center;
-  padding: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.wrapper_loader {
+  position: absolute;
+  width: 50vw;
+  transform: translate(50%, 50%);
 }
 
 .section_loader h1 {

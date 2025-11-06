@@ -41,13 +41,22 @@ export default function Footer() {
           <div className="wrapper_footer_socials">
             <h4>Social Media</h4>
             <div className="wrapper_socials">
-              <img src="/img/icon_facebook.svg" alt="Facebook Logo" />
-              <img src="/img/icon_twitter.svg" alt="Twitter Logo" />
-              <img src="/img/icon_linkedin.svg" alt="LinkedIn Logo" />
-              <img src="/img/icon_pininterest.svg" alt="Pinterest Logo" />
+              <a>
+                <img src="/img/icon_facebook.svg" alt="Facebook Logo" />
+              </a>
+              <a>
+                <img src="/img/icon_twitter.svg" alt="Twitter Logo" />
+              </a>
+              <a>
+                <img src="/img/icon_linkedin.svg" alt="LinkedIn Logo" />
+              </a>
+              <a>
+                <img src="/img/icon_pininterest.svg" alt="Pinterest Logo" />
+              </a>
             </div>
           </div>
         </section>
+
         <section className="footer_copyright">
           <p>© 2021 All Rights Reserved</p>
         </section>

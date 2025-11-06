@@ -1,23 +1,39 @@
+/* ------- Light Button ------- */
+
 .div_btn_light {
   width: 14rem;
   font-size: 0.75rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   background-color: white;
-  padding: 1.6rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  color: var(--primary-color);
 }
 
 .div_btn_light a {
+  padding: 1.6rem 2rem;
+  width: 14rem;
   color: var(--primary-color);
 }
 
 .btn_svg_dark path {
-  fill: var(--primary-color);
+  fill: black;
 }
+
+.div_btn_light:hover {
+  transition: 0.2s;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.div_btn_light:hover .btn_svg_dark path {
+  fill: white;
+}
+
+/* ------- Dark Button ------- */
 
 .div_btn_dark {
   width: 14rem;
@@ -25,7 +41,6 @@
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   background-color: var(--primary-color);
-  padding: 1.6rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,12 +49,33 @@
 
 .div_btn_dark a {
   color: white;
+  padding: 1.6rem 2rem;
 }
 
 .btn_svg_light path {
   fill: white;
 }
 
-.btn_svg_dark path {
+.div_btn_dark:hover {
+  transition: 0.3s;
+  background-color: var(--contact-font-color);
+}
+
+/* ------- Darkmode/Lightmode Styling ------- */
+
+.dark .btn_mode_svg,
+.dark .div_btn_light,
+.dark .div_btn_light a,
+.dark .btn_svg_dark path {
+  background-color: var(--darkmode-color);
+  color: white;
+  fill: white;
+}
+
+.dark .div_btn_dark,
+.dark .div_btn_dark a,
+.dark .btn_svg_light path {
+  background-color: var(--tertiary-color);
+  color: black;
   fill: black;
 }
