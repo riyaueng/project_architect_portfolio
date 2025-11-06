@@ -48,6 +48,16 @@ footer li {
   gap: 1.2rem;
 }
 
+.wrapper_footer_nav a {
+  border-bottom: 1px solid #2c2c2c;
+  border-top: 1px solid #2c2c2c;
+}
+
+.wrapper_footer_nav a:hover {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
 .wrapper_footer_contacts li {
   display: flex;
   justify-content: start;

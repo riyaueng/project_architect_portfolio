@@ -39,3 +39,7 @@
 .btn_svg_light path {
   fill: white;
 }
+
+.btn_svg_dark path {
+  fill: black;
+}

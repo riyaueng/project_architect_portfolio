@@ -20,7 +20,7 @@
 }
 
 .wrapper_nav nav a:hover,
-.wrapper_nav nav a:active {
+.nav_link_active {
   border-bottom: 1px solid var(--primary-color);
   border-top: 1px solid var(--primary-color);
 }

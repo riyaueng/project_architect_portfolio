@@ -7,8 +7,7 @@ interface HeaderProps {
   setDarkmode: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-const logo_black = "/img/logo_architect.svg"
-
+const logo_black = "/img/logo_architect_image.svg"
 const logo_white = "/img/logo_architect_image_white.svg"
 
 export default function Header(props: HeaderProps) {

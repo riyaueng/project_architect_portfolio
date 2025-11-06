@@ -45,18 +45,30 @@ li {
   list-style-type: none;
 }
 
+/* ------- Darkmode/Lighmode Styling ------- */
+
 .light {
   background-color: white;
   color: var(--secondary-color);
 }
 
 .dark,
-.dark a,
+.dark .wrapper_nav a,
 .dark .btn_mode_svg,
 .dark .div_btn_light,
 .dark .div_btn_light a,
-.dark .btn_svg_dark path {
+.dark .btn_svg_dark path,
+.dark .section_hero h1 span,
+.dark .section_intro h1 span {
   background-color: var(--darkmode-color);
   color: white;
   fill: white;
+}
+
+.dark .div_btn_dark,
+.dark .div_btn_dark a,
+.dark .btn_svg_light path {
+  background-color: var(--tertiary-color);
+  color: black;
+  fill: black;
 }

@@ -1,6 +1,6 @@
 // import React, { useState } from "react"
 import "./Navigation.css"
-import { Link } from "react-router"
+import { NavLink } from "react-router"
 
 interface NaviProps {
   darkMode: boolean
@@ -11,11 +11,21 @@ export default function Navigation(props: NaviProps) {
   return (
     <div className="wrapper_nav">
       <nav>
-        <Link to="/">Main</Link>
-        <Link to="gallery">Gallery</Link>
-        <Link to="projects">Projects</Link>
-        <Link to="certifications">Certifications</Link>
-        <Link to="contacts">Contacts</Link>
+        <NavLink to="/" className={({ isActive }) => (isActive ? "nav_link_active" : "")}>
+          Main
+        </NavLink>
+        <NavLink to="gallery" className={({ isActive }) => (isActive ? "nav_link_active" : "")}>
+          Gallery
+        </NavLink>
+        <NavLink to="projects" className={({ isActive }) => (isActive ? "nav_link_active" : "")}>
+          Projects
+        </NavLink>
+        <NavLink to="certifications" className={({ isActive }) => (isActive ? "nav_link_active" : "")}>
+          Certifications
+        </NavLink>
+        <NavLink to="contacts" className={({ isActive }) => (isActive ? "nav_link_active" : "")}>
+          Contacts
+        </NavLink>
       </nav>
       <button
         className="btn_mode"
