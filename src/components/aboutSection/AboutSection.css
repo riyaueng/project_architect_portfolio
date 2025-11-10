@@ -84,8 +84,7 @@
   }
 
   .wrapper_images_column img:first-of-type,
-  .wrapper_images_column img:nth-of-type(2),
-  .wrapper_image_alone img {
+  .wrapper_images_column img:nth-of-type(2) {
     width: 100%;
   }
 }
