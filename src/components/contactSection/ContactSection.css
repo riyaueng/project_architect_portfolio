@@ -3,6 +3,7 @@
   width: 73rem;
   padding-bottom: 6rem;
 }
+
 .section_contact h2 {
   margin-bottom: 2rem;
 }
@@ -51,4 +52,26 @@
 .wrapper_contact input:focus,
 .wrapper_contact textarea:focus {
   outline-color: black;
+}
+
+/* ? ----- Responsive Design Tablet ----- */
+
+@media only screen and (max-width: 1245px) {
+  .section_contact {
+    width: 80%;
+  }
+
+  .wrapper_contact {
+    margin-bottom: 0 auto 2.5rem;
+    gap: 1.5rem;
+  }
+
+  .contact_img,
+  .contact_img img {
+    width: 100%;
+  }
+
+  .wrapper_contact form {
+    width: 100%;
+  }
 }

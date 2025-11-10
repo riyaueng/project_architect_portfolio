@@ -36,3 +36,24 @@
 .div_focus p:last-of-type {
   width: 24rem;
 }
+
+/* ? ----- Responsive Design Tablet ----- */
+
+@media only screen and (max-width: 1245px) {
+  .section_mainfocus {
+    width: 80%;
+  }
+
+  .wrapper_focus_text {
+    margin: 0 1rem;
+    gap: 4rem;
+  }
+
+  .div_focus p::first-letter {
+    initial-letter: 5 5;
+  }
+
+  .div_focus p:last-of-type {
+    width: 100%;
+  }
+}
