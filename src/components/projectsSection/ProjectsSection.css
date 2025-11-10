@@ -38,14 +38,20 @@
 
 .examples_row2 img:first-of-type {
   width: 16.9rem;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .examples_row2 img:nth-of-type(2) {
   width: 29.4rem;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .examples_row2 img:last-of-type {
   width: 23rem;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .wrapper_project_btn {
@@ -55,7 +61,6 @@
 
 .wrapper_example {
   position: relative;
-  width: 50%;
 }
 
 .wrapper_example img {
@@ -88,3 +93,34 @@
 .wrapper_example:hover .projects_overlay {
   height: 35%;
 }
+
+/* ? ----- Responsive Design Tablet ----- */
+
+@media only screen and (max-width: 1245px) {
+  .section_projects {
+    width: 80%;
+  }
+
+  .projects_examples,
+  .examples_row1,
+  .examples_row2 {
+    gap: 1.5rem;
+  }
+
+  .examples_row1,
+  .examples_row2 img:first-of-type {
+    width: 100%;
+  }
+
+  .wrapper_example {
+    width: 80%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .examples_row1 img {
+    width: 115%;
+  }
+}
+
+/* ? ----- Responsive Design Mobile ----- */

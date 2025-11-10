@@ -16,9 +16,7 @@ export default function ContactSection() {
 
             <input type="text" placeholder="Interested In" />
 
-            <textarea rows={12} cols={36}>
-              Message*
-            </textarea>
+            <textarea defaultValue="Message*" rows={12} cols={36} />
           </form>
           <div className="contact_img">
             <img src="/img/contact_formular.jpg" alt="Mann mit Smartphone und Armbanduhr" />

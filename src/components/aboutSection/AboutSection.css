@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 6rem;
+  margin: 0 2rem 6rem 2rem;
 }
 
 .section_about h2 {
@@ -60,3 +60,34 @@
   align-items: center;
   gap: 2rem;
 }
+
+/* ? ----- Responsive Design Tablet ----- */
+
+@media only screen and (max-width: 1245px) {
+  .section_about {
+    width: 80%;
+    gap: 2rem;
+    margin: 0 auto 6rem;
+  }
+
+  .wrapper_about_text {
+    width: 100%;
+  }
+
+  .wrapper_about_images {
+    gap: 1.5rem;
+  }
+
+  .wrapper_images_column,
+  .wrapper_image_alone {
+    width: 80%;
+  }
+
+  .wrapper_images_column img:first-of-type,
+  .wrapper_images_column img:nth-of-type(2),
+  .wrapper_image_alone img {
+    width: 100%;
+  }
+}
+
+/* @media only screen and (max-width: 975px) */
