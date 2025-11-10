@@ -10,7 +10,7 @@ export default function ContactSection() {
           <form>
             <input type="text" placeholder="Name" />
 
-            <input type="number" name="" id="" placeholder="Phone Number*" required />
+            <input type="text" placeholder="Phone Number*" required />
 
             <input type="mail" placeholder="E-Mail*" required />
 
@@ -24,7 +24,7 @@ export default function ContactSection() {
             <img src="/img/contact_formular.jpg" alt="Mann mit Smartphone und Armbanduhr" />
           </div>
         </div>
-        <LinkBtn link="/" text="Send Mail" style="div_btn_dark" svg="btn_svg_light" />
+        <LinkBtn link="/" text="Send Mail" style="btn_dark" svg="btn_svg_light" />
       </section>
     </>
   )

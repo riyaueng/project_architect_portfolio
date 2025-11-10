@@ -1,6 +1,6 @@
 /* ------- Light Button ------- */
 
-.div_btn_light {
+.btn_light {
   width: 14rem;
   font-size: 0.75rem;
   letter-spacing: 0.1rem;
@@ -13,29 +13,29 @@
   color: var(--primary-color);
 }
 
-.div_btn_light a {
+.btn_light a {
   padding: 1.6rem 2rem;
-  width: 14rem;
   color: var(--primary-color);
 }
 
 .btn_svg_dark path {
-  fill: black;
+  fill: var(--primary-color);
 }
 
-.div_btn_light:hover {
-  transition: 0.2s;
+.btn_light:hover {
+  transition: 0.4s;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--tertiary-color);
 }
 
-.div_btn_light:hover .btn_svg_dark path {
-  fill: white;
+.btn_light a:hover .btn_svg_dark path {
+  transition: 0.4s;
+  fill: var(--tertiary-color);
 }
 
 /* ------- Dark Button ------- */
 
-.div_btn_dark {
+.btn_dark {
   width: 14rem;
   font-size: 0.75rem;
   letter-spacing: 0.1rem;
@@ -47,35 +47,53 @@
   gap: 1rem;
 }
 
-.div_btn_dark a {
-  color: white;
+.btn_dark a {
+  color: var(--tertiary-color);
   padding: 1.6rem 2rem;
 }
 
 .btn_svg_light path {
-  fill: white;
+  fill: var(--tertiary-color);
 }
 
-.div_btn_dark:hover {
-  transition: 0.3s;
+.btn_dark:hover {
+  transition: 0.4s;
   background-color: var(--contact-font-color);
 }
 
 /* ------- Darkmode/Lightmode Styling ------- */
 
-.dark .btn_mode_svg,
-.dark .div_btn_light,
-.dark .div_btn_light a,
+.dark .btn_light a,
 .dark .btn_svg_dark path {
   background-color: var(--darkmode-color);
-  color: white;
-  fill: white;
+  color: var(--tertiary-color);
+  fill: var(--tertiary-color);
 }
 
-.dark .div_btn_dark,
-.dark .div_btn_dark a,
+.dark .btn_dark a,
 .dark .btn_svg_light path {
   background-color: var(--tertiary-color);
-  color: black;
-  fill: black;
+  color: var(--primary-color);
+  fill: var(--primary-color);
+}
+
+.dark .btn_light a:hover,
+.btn_light:hover .btn_svg_dark path {
+  transition: 0.4s;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  fill: var(--primary-color);
+}
+
+.dark .btn_dark a:hover,
+.btn_dark:hover .btn_svg_light path {
+  transition: 0.4s;
+  background-color: var(--contact-font-color);
+  color: var(--tertiary-color);
+  fill: var(--tertiary-color);
+}
+
+.dark .btn_light:hover .btn_svg_dark path {
+  transition: 0.4s;
+  fill: var(--primary-color);
 }

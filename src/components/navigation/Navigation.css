@@ -33,6 +33,7 @@
 }
 
 .btn_mode:hover {
+  transition: 0.8s;
   background-color: var(--tertiary-color);
 }
 
@@ -45,5 +46,6 @@
 }
 
 .dark .btn_mode:hover {
+  transition: 0.5s;
   background-color: var(--contact-font-color);
 }

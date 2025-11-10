@@ -1,17 +1,24 @@
 import "./IntroSection.css"
 
 interface IntroProps {
-  text1: string
-  text2: string
+  headline1: string
+  headline2: string
+  text?: string
 }
 
-export default function IntroSection({ text1, text2 }: IntroProps) {
+export default function IntroSection({ headline1, headline2, text }: IntroProps) {
+  const isOnGallery = window.location.pathname === "/gallery"
+
   return (
     <>
       <section className="section_intro">
-        <h1>
-          {text1} <br /> <span>{text2}</span>
-        </h1>
+        <div className="section_line">
+          <h1>
+            {headline1} <br /> <span>{headline2}</span>
+          </h1>
+        </div>
+
+        {isOnGallery ? "" : <p>{text}</p>}
       </section>
     </>
   )

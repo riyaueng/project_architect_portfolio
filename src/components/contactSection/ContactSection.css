@@ -47,3 +47,8 @@
   font-family: "Roboto-Variable", "sans-serif";
   font-size: 0.8rem;
 }
+
+.wrapper_contact input:focus,
+.wrapper_contact textarea:focus {
+  outline-color: black;
+}

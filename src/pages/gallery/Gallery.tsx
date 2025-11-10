@@ -5,7 +5,8 @@ export default function Gallery() {
   return (
     <>
       <main>
-        <IntroSection text1="Photo" text2="Gallery" />
+        <IntroSection headline1="Photo" headline2="Gallery" />
+
         <section className="section_gallery">
           <div className="gallery_platzhalter"></div>
           <img src="/img/gallery_02.jpg" alt="Küste mit Leuchtturm" />

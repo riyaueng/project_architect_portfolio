@@ -16,7 +16,7 @@ export default function HeroSection() {
             <img src="/img/header_hero.jpg" alt="Gebäude mit mehreren Balkons" />
           </div>
           <div className="div_link_btn">
-            <LinkBtn link="/projects" text="View projects" style="div_btn_light" svg="btn_svg_dark" />
+            <LinkBtn link="/projects" text="View projects" style="btn_light" svg="btn_svg_dark" />
           </div>
         </div>
       </section>
