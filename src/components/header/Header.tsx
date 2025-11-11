@@ -14,7 +14,7 @@ export default function Header(props: HeaderProps) {
   return (
     <>
       <header>
-        <div className="archtitects_logo">
+        <div className="architects_logo">
           <img
             src={props.darkMode ? logo_white : logo_black}
             alt={props.darkMode ? "White Architects Logo" : "Black Architects Logo"}

@@ -54,11 +54,11 @@
   outline-color: black;
 }
 
-/* ? ----- Responsive Design Tablet ----- */
+/* ? ----- Responsive Styling ----- */
 
 @media only screen and (max-width: 1245px) {
   .section_contact {
-    width: 80%;
+    width: 90%;
   }
 
   .wrapper_contact {
@@ -73,5 +73,13 @@
 
   .wrapper_contact form {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .wrapper_contact {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 2.5rem;
   }
 }

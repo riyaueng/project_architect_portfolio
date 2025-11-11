@@ -61,11 +61,11 @@
   gap: 2rem;
 }
 
-/* ? ----- Responsive Design Tablet ----- */
+/* ? ----- Responsive Styling ----- */
 
 @media only screen and (max-width: 1245px) {
   .section_about {
-    width: 80%;
+    width: 90%;
     gap: 2rem;
     margin: 0 auto 6rem;
   }

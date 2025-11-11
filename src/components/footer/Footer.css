@@ -12,7 +12,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  padding: 0 5rem;
+  padding: 0 4rem;
   margin-bottom: 2.5rem;
 }
 
@@ -67,4 +67,25 @@ footer li {
 
 .wrapper_footer_socials img {
   margin-right: 1.5rem;
+}
+
+/* ? ----- Responsive Styling ----- */
+
+@media only screen and (max-width: 1245px) {
+  .footer_info {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .footer_info {
+    padding: 0 2rem;
+    gap: 1.5rem;
+  }
+  .wrapper_footer_contacts li {
+    gap: 0.6rem;
+  }
+  .wrapper_footer_socials img {
+    margin-right: 1rem;
+  }
 }

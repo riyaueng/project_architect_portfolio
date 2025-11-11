@@ -49,3 +49,42 @@
   transition: 0.5s;
   background-color: var(--contact-font-color);
 }
+
+/* ? ----- Responsive Styling ----- */
+
+@media only screen and (max-width: 1245px) {
+  .wrapper_nav {
+    gap: 1.5rem;
+  }
+
+  .wrapper_nav nav {
+    gap: 1.5rem;
+  }
+
+  .btn_mode {
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0.5rem 0.5rem 0.3rem;
+    background-color: transparent;
+  }
+
+  .btn_mode:hover {
+    transition: 0.8s;
+    background-color: var(--tertiary-color);
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .wrapper_nav {
+    gap: 1rem;
+  }
+  .wrapper_nav nav {
+    gap: 1rem;
+  }
+  .wrapper_nav nav a {
+    padding: 0.1rem 0.75rem;
+  }
+  .btn_mode {
+    padding: 0rem;
+  }
+}

@@ -1,8 +1,9 @@
 .section_hero {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin: 0 2rem 6rem 4rem;
+  gap: 7rem;
+  margin: 0 auto 6rem;
 }
 
 .div_hero_image {
@@ -39,15 +40,37 @@
   z-index: 1;
 }
 
-/* ? ----- Responsive Design Tablet ----- */
+/* ? ----- Responsive Styling ----- */
 
 @media only screen and (max-width: 1240px) {
+  .section_hero {
+    width: 100%;
+    gap: 4rem;
+  }
+
   .div_hero_image,
   .div_hero_image img {
     width: 100%;
   }
+}
 
-  .section_hero h1 {
-    margin-right: 2rem;
+@media only screen and (max-width: 975px) {
+  .section_hero {
+    gap: 2rem;
   }
+
+  .div_hero_image,
+  .div_hero_image img {
+    width: 100%;
+  }
+  .div_img_link {
+    position: relative;
+    width: 60%;
+  }
+  .section_hero h1 {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 735px) {
 }
